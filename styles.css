@@ -6,6 +6,7 @@ body {
 	padding: 0;
 }
 
+/* Header now matches <header> */
 .header {
 	background-color: #011e29;
 	color: white;
@@ -16,6 +17,7 @@ body {
 	height: 100px;
 }
 
+/* Flexbox container */
 .news-container {
 	display: flex;
 	justify-content: space-between;
@@ -24,6 +26,7 @@ body {
 	padding: 20px;
 }
 
+/* Latest News */
 .latest-news-section {
 	background-color: white;
 	width: 180px;
@@ -32,16 +35,18 @@ body {
 	text-align: left;
 }
 
+/* Main Article */
 .main {
 	background-color: white;
-	flex: 1;             
+	flex: 1;
 	min-width: 300px;
 	border-radius: 10px;
 	padding: 15px;
 	text-align: center;
 }
 
-.pictorial-news {
+
+.pictorial-news-section {
 	background-color: white;
 	width: 200px;
 	border-radius: 10px;
@@ -49,7 +54,7 @@ body {
 	text-align: center;
 }
 
-.pictorial-news img {
+.pictorial-news-section img {
 	width: 100%;
 	border-radius: 5px;
 	margin: 8px 0;
